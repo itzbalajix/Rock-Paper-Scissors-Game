@@ -57,10 +57,6 @@ The project features a futuristic glassmorphism UI, keyboard controls, auto-play
 
 ---
 
-## 🌐 Live Demo
-
-🔗 [Play the Game](https://rock-paper-scissors-game-nine-iota.vercel.app/)
-
 ---
 
 ## 📂 Project Structure
@@ -74,6 +70,9 @@ rock-paper-scissors-game/
 ├── README.md
 └── screenshots/
 ```
+## 🌐 Live Demo
+
+🔗 [Play the Game](https://rock-paper-scissors-game-nine-iota.vercel.app/)
 
 ---
 
