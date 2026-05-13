@@ -46,13 +46,16 @@ The project features a futuristic glassmorphism UI, keyboard controls, auto-play
 *Add your screenshots here*
 
 ```md
-![Game UI](./screenshots/game-ui.png)
+![Game UI](./screenshots/RPS-SS.png)
 ```
 
 ### Gameplay
 
 ```md
-![Gameplay](./screenshots/gameplay.png)
+![Game UI](./screenshots/RPS-Gameplay-SS.png)
+![Game UI](./screenshots/RPS-Gameplay-SS-2.png)
+![Game UI](./screenshots/RPS-Gameplay-SS-3.png)
+
 ```
 
 ---
