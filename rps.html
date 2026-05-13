@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Modern Rock Paper Scissors game built using HTML, CSS, and JavaScript with keyboard controls, auto play, and responsive UI."/>
+    <meta name="theme-color" content="#0b0f1a" />
+    <title>Rock Paper Scissors Game | JavaScript Project</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✊</text></svg>"/>
+    <link rel="stylesheet" href="rps.css" />
+  </head>
+  <body>
+
+    <div class="game-card">
+      <p class="title">Rock Paper Scissors</p>
+      
+      <div class="buttons-row">
+        <button class="move-button js-rock-button" title="Rock (R)" aria-label="Play Rock">
+          <span class="move-icon">✊</span>
+        </button>
+
+        <button class="move-button js-paper-button" title="Paper (P)" aria-label="Play Paper">
+          <span class="move-icon">✋</span>
+        </button>
+
+        <button class="move-button js-scissors-button" title="Scissors (S)" aria-label="Play Scissors">
+          <span class="move-icon">✌️</span>
+        </button>
+      </div>
+
+      <div class="divider"></div>
+
+      <p class="JS-result result"></p>
+      <p class="JS-moves"></p>
+      <p class="JS-score score"></p>
+
+      <div class="action-buttons">
+        <button class="reset-btn js-reset-button">Reset Score</button>
+        <button class="auto-play-button js-auto-play-button">Auto Play</button>
+      </div>
+
+      <p class="js-reset-confirmation"></p>
+
+      <div class="keyboard-hints-footer">
+        <p class="keyboard-hints-titles">⌨ Keyboard Shortcuts</p>
+        <div class="keyboard-hints">
+          <span><kbd>R</kbd> Rock</span>
+          <span><kbd>P</kbd> Paper</span>
+          <span><kbd>S</kbd> Scissors</span>
+          <span><kbd>A</kbd> Auto Play</span>
+          <span><kbd>Backspace</kbd> Reset</span>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="rps.js"></script>
+  </body>
+</html>
